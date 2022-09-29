@@ -1,5 +1,5 @@
 # DisneyPlus
-### Página desenvolvida do zero, buscando fazer o mais parecido com a página original possível, com o objetivo de desenvolver e melhorar habilidades.
+### Página desenvolvida do zero, buscando deixar o mais parecido possível com a página original, com o objetivo de desenvolver e melhorar habilidades.
 #### *Desenvolvido apenas para fins de aprendizado.
 
 ## Tecnologias/Ferramentas utilizadas
