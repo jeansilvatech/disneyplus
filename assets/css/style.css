@@ -1,0 +1,535 @@
+@import url('http://fonts.cdnfonts.com/css/avenir');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+    scroll-behavior: smooth;
+    transition: 900ms;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background-color: #040714;
+    color: #fff;
+    overflow-x: hidden;
+
+}
+
+header {
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/e8a5ce08218d688687aa99322af6a124f61143ff187ca2d02ed851e87b1e5c28/original');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    padding: 10px 40px;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav .assine {
+    background-color: #0063e5;
+    border: 1px solid transparent;
+    position: fixed;
+    right: 150px;
+    visibility: hidden;
+}
+
+.nav .logo-nav {
+    width: 90px;
+    position: fixed;
+    left: 60px;
+    visibility: hidden;
+}
+
+.home {
+    padding-left: 70px;
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 25px;
+}
+
+.home button {
+    height: 68px;
+    width: 700px;
+    padding: 20.5px 33px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(100, 33, 255);
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background-color: #7828ff;
+}
+
+.logo {
+    padding: 20px;
+    width: 380px;
+}
+
+.abas {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abas h2 {
+    margin: 5px 20px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 500ms;
+    border-bottom: 5px solid transparent;
+}
+
+.abas h2:hover {
+    border-bottom: 5px solid white;
+    transition: 500ms;
+}
+
+.cards {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    width: 450px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100vw;
+}
+
+.titulo h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px;
+}
+
+.planos .card-plano {
+    width: 420px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-plano img {
+    width: 380px;
+    padding: 20px 0;
+}
+
+.card-plano h2 {
+    font-size: 28px;
+    padding: 15px;
+}
+
+.card-plano h3 {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(192, 192, 192);
+    padding-bottom: 15px;
+}
+
+.card-plano button {
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(100, 33, 255);
+    color: white;
+    font-size: 18px;
+    padding: 20px 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-plano button:hover {
+    background-color: #7828ff;
+}
+
+#popular {
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/56773c66e02b16eb7603c803037f43e8572ea3a61574abd664f409a385a0b333/original');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+    height: 370px;
+}
+
+.star-wars {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.star-wars img {
+    width: 700px;
+}
+
+.star-wars .texto {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.texto h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.texto p {
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.populares {
+    display: none;
+}
+
+.mais {
+    display: none;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rei-leao {
+    width: 1404px;
+    height: 818px;
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/36b498725697f2dad5b28c08358207cf7d86f6e81d5476c00d1f25f4178d4d6c/original');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-texto1 h2 {
+    font-size: 28px;
+    width: 700px;
+    text-align: start;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.container-texto1 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(192, 192, 192);
+    width: 700px;
+    padding-right: 90px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.container-texto {
+    display: none;
+}
+
+.container-dispositivos {
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dispositivo {
+    text-align: center;
+    height: 500px;
+}
+
+.dispositivo img {
+    width: 333px;
+}
+
+.dispositivo img:hover {
+    width: 353px;
+}
+
+.dispositivo h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    padding: 20px;
+}
+
+.dispositivo h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(192, 192, 192);
+}
+
+@media (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+
+    }
+
+    header {
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/ba6516bdce9167e948b59de78b7437a4209423fecd1d5f776344d7a7b495e6ee/original');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: center;
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+
+    .home button {
+        height: 68px;
+        width: 400px;
+        padding: 20.5px 33px;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 350px;
+    }
+
+    .nav .assine {
+        right: 310px;
+    }
+
+    .planos .card-plano {
+        width: 320px;
+
+    }
+
+    .card-plano img {
+        width: 280px;
+        padding: 10px 0;
+    }
+
+    .card-plano h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .card-plano h3 {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .card-plano button {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    #popular {
+        width: 320px;
+        height: 270px;
+    }
+
+    .rei-leao {
+        width: 922px;
+        height: 537px;
+    }
+
+    .container-texto1 {
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .container-texto1 p {
+        width: 400px;
+    }
+
+    .star-wars img {
+        width: 600px;
+    }
+
+    .star-wars .texto {
+        padding: 15px;
+    }
+
+    .container-dispositivos {
+        flex-wrap: wrap;
+    }
+
+    .dispositivo img {
+        width: 212px;
+    }
+
+    .dispositivo h2 {
+        font-size: 24px;
+    }
+
+    .dispositivo h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .home button {
+        height: 68px;
+        width: 400px;
+        padding: 20.5px 33px;
+    }
+
+    .nav .assine {
+        right: 160px;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 200px;
+    }
+
+    .planos {
+        flex-direction: column;
+    }
+
+    .planos .card-plano {
+        margin-bottom: 100px;
+    }
+
+    .star-wars {
+        flex-direction: column;
+    }
+
+    .cards img {
+        width: 300px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-texto {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto h2 {
+        font-size: 28px;
+        width: 700px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+
+    .container-texto p {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(192, 192, 192);
+        width: 600px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .rei-leao {
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/a01fb82b86c927206fd274b55de3080fac8a14b2b7241352bfdde126794509e0/original');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 690px;
+        height: 514px;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .titulo h2 {
+        font-size: 26px;
+    }
+
+    .container-texto1 h2 {
+        display: none;
+
+    }
+
+    .container-texto1 p {
+        display: none;
+
+    }
+
+    .container-dispositivos {
+        flex-wrap: wrap;
+    }
+}
