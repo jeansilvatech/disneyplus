@@ -325,6 +325,15 @@ header {
     line-height: 28px;
     color: rgb(192, 192, 192);
 }
+footer{
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(192, 192, 192);
+}
 
 @media (max-width:1024px) {
     body {
