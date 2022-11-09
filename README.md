@@ -2,6 +2,8 @@
 ### Página desenvolvida do zero, buscando deixar o mais parecido possível com a página original, com o objetivo de desenvolver e melhorar habilidades.
 #### *Desenvolvido apenas para fins de aprendizado.
 
+##### *Em breve ajuste de responsividade para smartphones
+
 ## Tecnologias/Ferramentas utilizadas
 - HTML
 - CSS
