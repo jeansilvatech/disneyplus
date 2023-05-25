@@ -344,7 +344,8 @@ footer p{
     header {
         background-image: url('https://cnbl-cdn.bamgrid.com/assets/ba6516bdce9167e948b59de78b7437a4209423fecd1d5f776344d7a7b495e6ee/original');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        height: 100vh;
         display: flex;
         justify-content: center;
     }
@@ -549,7 +550,7 @@ footer p{
 @media (max-width:600px) {
     .home {
         padding-left: 0;
-        padding-bottom: 50px;
+       padding-bottom: 30px;
     }
     .nav button {
         font-size: 11px;
