@@ -549,9 +549,15 @@ footer p{
 }
 @media (max-width:600px) {
     .home {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        text-align: center;
         padding-left: 0;
-       padding-bottom: 50px;
-       margin-bottom: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 120px;
     }
     .nav button {
         font-size: 11px;
