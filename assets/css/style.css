@@ -345,6 +345,8 @@ footer p{
         background-image: url('https://cnbl-cdn.bamgrid.com/assets/ba6516bdce9167e948b59de78b7437a4209423fecd1d5f776344d7a7b495e6ee/original');
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: center;
     }
 
     .home {
@@ -545,6 +547,10 @@ footer p{
     }
 }
 @media (max-width:600px) {
+    .home {
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
     .nav button {
         font-size: 11px;
         padding: 8px 13px;
@@ -585,6 +591,9 @@ footer p{
     }
     .container-texto p{
         width: 95%;
+    }
+    .abas h2{
+        font-size: 12px;
     }
     
 }
