@@ -309,7 +309,7 @@ header {
 }
 
 .dispositivo img:hover {
-    width: 353px;
+   transform: scale(1.1);
 }
 
 .dispositivo h2 {
@@ -603,5 +603,22 @@ footer p{
     .abas h2{
         font-size: 12px;
     }
-    
+    .container-dispositivos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+        .dispositivo{
+            height: 360px;
+            width: 180px;
+            margin-bottom: 10px;
+        }
+        .dispositivo h2{
+            padding: 10px;
+            font-size: 22px;
+        }
+        .dispositivo img{
+            width: 179px;
+        }
 }
