@@ -441,17 +441,19 @@ footer p{
 }
 
 @media (max-width:768px) {
+    
     .home {
+        width: 90%;
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content:end;
         text-align: center;
         padding-bottom: 50px;
     }
 
     .home button {
         height: 68px;
-        width: 400px;
+        width: 95%;
         padding: 20.5px 33px;
     }
 
@@ -541,4 +543,48 @@ footer p{
     .container-dispositivos {
         flex-wrap: wrap;
     }
+}
+@media (max-width:600px) {
+    .nav button {
+        font-size: 11px;
+        padding: 8px 13px;
+    }
+    .login{
+        right: 5px;
+    }
+    .nav .assine{
+        right: 90px;
+    }
+    .star-wars .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .star-wars .imagem img{
+        width: 80%;
+    }
+    .star-wars .texto{
+        width: 90%;
+    }
+    .rei-leao {
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/a01fb82b86c927206fd274b55de3080fac8a14b2b7241352bfdde126794509e0/original');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80%;
+        /* height: 514px; */
+    }
+    .container-texto h2 {
+        width: 100%;
+    }
+    .star-wars .texto:where(h2,p){
+        width: 90%;
+    }
+    .logo-nav .login{
+        right: 0;
+        top: 0;
+    }
+    .container-texto p{
+        width: 95%;
+    }
+    
 }
